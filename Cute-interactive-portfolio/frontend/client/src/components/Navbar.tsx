@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import "../styles/navbar.css";
+import "../css/Navbar.css";
 
 const SECTIONS = [
   { id: "about", label: "Tentang" },
@@ -39,7 +39,7 @@ export default function Navbar() {
   return (
     <header className={`nav ${scrolled ? "nav--scrolled" : ""}`}>
       <a href="/" className="nav__mark">
-        Nadine Natasja Liu Sugandi
+        NNLS
       </a>
 
       <nav className="nav__links">
